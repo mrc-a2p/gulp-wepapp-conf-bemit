@@ -1,0 +1,77 @@
+// .form{
+//     &__input{
+//         &--border{}
+//     }
+//     &__input{
+//     }
+//     &__textarea{
+
+//     }
+//     &__submit{
+//         &--black{}
+//         &--big{ }
+//     }
+// }
+
+.header {
+  width: 100%;
+  display: flex;
+  background-color: $accent;
+  padding: 20px;
+  outline: 1px solid $color-title;
+
+  &__col {
+    width: 50%;
+    display: block;
+    padding: 20%;
+    outline: 1px solid $instagram;
+    
+    &--grey{
+        background-color: grey;
+    }
+  }
+
+  &__logo {
+    width: 50%;
+    display: block;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  &__menu {
+    width: 100%;
+    display: block;
+    background-color: $white;
+    color: black;
+    padding: 20px;
+    outline: 1px solid $color-text;
+  }
+
+  &__menu-link {
+    display: inline-block;
+    background-color: $white;
+    color: black;
+    padding: 20px;
+    outline: 1px solid $color-text;
+    text-decoration: none;
+    &--red {
+      color: red;
+    }
+
+    &--blue {
+      color: blue;
+    }
+
+    &--green {
+      color: green;
+    }
+
+    .header--bolder &{
+        font-weight: 900;
+    }
+
+    .header--lighther &{
+        font-weight: 200;
+    }
+  }
+}

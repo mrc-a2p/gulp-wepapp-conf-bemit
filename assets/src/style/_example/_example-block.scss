@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    display: flex;
+    background-color: $accent;
+    padding: 20px;
+    outline: 1px solid $color-title;
+
+}
+
+
+.col{
+    width: 50%;
+    display: block;
+    padding: 20%;
+    outline: 1px solid $instagram;
+ }
+
+ .menu{
+    width: 100%;
+    display: block;
+    background-color: $white;
+    color: black;
+    padding: 20px;
+    outline: 1px solid $color-text;
+
+}
+    
